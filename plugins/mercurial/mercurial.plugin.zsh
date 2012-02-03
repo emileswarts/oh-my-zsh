@@ -9,6 +9,6 @@ alias hged='hg diffmerge'
 # pull and update
 alias hgl='hg pull -u'
 alias hgp='hg push'
-alias hgs='hg status'
+alias hs='hg status'
 # this is the 'git commit --amend' equivalent
 alias hgca='hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip'
