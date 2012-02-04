@@ -1,6 +1,6 @@
 # ls colors
 autoload colors; colors;
-export LSCOLORS="Gxfxcxdxbxegedabagacad"
+export LSCOLORS="Cxfxcxdxbxegedabagacad"
 #export LS_COLORS
 
 # Enable ls colors
