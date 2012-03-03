@@ -37,7 +37,7 @@ local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
 
 
-PROMPT="╭─%{$terminfo[bold]$FG[040]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$FG[033]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[226]%}${current_dir}%{$reset_color%}${git_info} %{$FG[239]%}using%{$FG[243]%} ${rvm_ruby}
+PROMPT="╭─%{$terminfo[bold]$fg_bold[green]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$fg_bold[red]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$fg_bold[yellow]%}${current_dir}%{$reset_color%}${git_info} %{$FG[239]%}using%{$FG[243]%} 
 ╰─$(virtualenv_info)$(prompt_char) "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[239]%}on%{$reset_color%} %{$fg[255]%}"
