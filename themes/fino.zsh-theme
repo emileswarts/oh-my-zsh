@@ -24,6 +24,14 @@ function box_name {
     [ -f ~/.box-name ] && cat ~/.box-name || hostname -s
 }
 
+function hg_prompt_info {
+    $OH_MY_ZSH_HG prompt --angle-brackets "\
+< on %{$fg[magenta]%}<branch>%{$reset_color%}>\
+< at %{$fg[yellow]%}<tags|%{$reset_color%}, %{$fg[yellow]%}>%{$reset_color%}>\
+%{$fg[green]%}<status|modified|unknown><update>%{$reset_color%}<
+patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset_color%})|pre_unapplied(%{$fg_bold[black]%})|post_unapplied(%{$reset_color%})>>" 2>/dev/null
+}
+
 
 local rvm_ruby=''
 if which rvm-prompt &> /dev/null; then
@@ -37,7 +45,7 @@ local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
 
 
-PROMPT="╭─%{$terminfo[bold]$fg_bold[green]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$fg_bold[red]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$fg_bold[yellow]%}${current_dir}%{$reset_color%}${git_info} %{$FG[239]%}using%{$FG[243]%} 
+PROMPT="╭─%{$terminfo[bold]$fg_bold[green]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$fg_bold[red]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$fg_bold[yellow]%}${current_dir}%{$reset_color%}${hg_prompt_info} %{$FG[239]%}using%{$FG[243]%} 
 ╰─$(virtualenv_info)$(prompt_char) "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[239]%}on%{$reset_color%} %{$fg[255]%}"
