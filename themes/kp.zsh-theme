@@ -43,5 +43,5 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[202]%}✘✘✘"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[040]%}✔"
 
-local return_status="%{$fg[red]%}%(?..✘)%{$reset_color%}"
+local return_status=""
 RPROMPT='${return_status}%{$reset_color%}'
