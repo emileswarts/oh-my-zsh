@@ -16,7 +16,7 @@ fi
 
 function prompt_char {
     git branch >/dev/null 2>/dev/null && echo '±' && return
-    echo '○'
+    echo '%{$fg[red]%}❤ '
 }
 
 function box_name {
@@ -35,7 +35,7 @@ local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
 
 
-PROMPT="%{$terminfo[bold]$fg_bold[green]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$fg_bold[red]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$fg_bold[yellow]%}${current_dir}%{$reset_color%}${hg_prompt_info}${git_info} %{$FG[239]%}using%{$FG[243]%} 
+PROMPT="%{$terminfo[bold]$fg_bold[green]%}%n%{$reset_color%} %{$terminfo[bold]$FG[239]%}at%{$reset_color%} %{$terminfo[bold]$fg[cyan]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$fg_bold[yellow]%}${current_dir}%{$reset_color%}${hg_prompt_info}${git_info} %{$FG[239]%}using%{$FG[243]%} 
 $(prompt_char) "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[239]%}on%{$reset_color%} %{$fg[255]%}"
