@@ -65,4 +65,6 @@ alias c='clear'
 
 alias oo='gnome-open ./'
 
+alias wtf='mtr google.com'
+
 
