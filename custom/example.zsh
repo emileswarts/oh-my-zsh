@@ -10,7 +10,7 @@ alias sshfalco='ssh -p 6007 emile@falco.fatbeehive.com'
 alias sshmicko='ssh emile@micko.fatbeehive.com'
 alias sshnearly='ssh korpzone_emileswarts@ssh.phx.nearlyfreespeech.net'
 alias sshnearlyvim='ssh korpzone_myvimcommands@ssh.phx.nearlyfreespeech.net'
-alias sshdev='ssh emile@192.168.1.126'
+alias sshpanda='ssh emile@192.168.1.126'
 
 alias sshfsbrix='sshfs emile@brix.fatbeehive.com:/server/www/ ~/srv/brix/'
 alias sshfshomer='sshfs emile@homer.fatbeehive.com:/server/www/ ~/srv/homer/'
