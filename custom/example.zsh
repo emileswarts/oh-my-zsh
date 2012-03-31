@@ -39,7 +39,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -al'
 
-alias ack='ack-grep'
+#alias ack='ack-grep'
 
 #Firefox
 alias ff='firefox &'
