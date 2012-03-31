@@ -53,7 +53,7 @@ alias lhomer='~/remoteserv/HOMER'
 alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
-#alias vi='vim -w $HOME/vimrecord '
+alias vi='vim'
 
 #cd
 alias ..='../'
