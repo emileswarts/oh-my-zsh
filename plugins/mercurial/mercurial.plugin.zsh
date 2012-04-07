@@ -12,3 +12,4 @@ alias hgp='hg push'
 alias hs='hg status'
 # this is the 'git commit --amend' equivalent
 alias hgca='hg qimport -r tip ; hg qrefresh -e ; hg qfinish tip'
+alias hgh='hg log |grep changeset'
