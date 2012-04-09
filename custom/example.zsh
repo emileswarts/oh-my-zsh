@@ -66,5 +66,7 @@ alias c='clear'
 alias oo='gnome-open ./'
 
 alias wtf='mtr google.com'
+alias v='vim'
+alias vi='vim'
 
 
