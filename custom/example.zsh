@@ -18,11 +18,13 @@ alias sshfsfalco='sshfs -p 6007 emile@falco.fatbeehive.com:/server/www ~/srv/fal
 alias sshfsmicko='sshfs emile@micko.fatbeehive.com:/server/www ~/srv/micko/'
 alias sshfsnearly='sshfs korpzone_emileswarts@ssh.phx.nearlyfreespeech.net:/ ~/srv/nearly/'
 alias sshfsnearlyvim='sshfs korpzone_myvimcommands@ssh.phx.nearlyfreespeech.net:/ ~/srv/nearlyvim/'
+alias sshfstrevor='sshfs emile@192.168.1.64:/emile ~/srv/trevor/'
 
 alias ubrix='fusermount -z -u ~/srv/brix'
 alias uhomer='fusermount -z -u ~/srv/homer'
 alias ufalco='fusermount -z -u ~/srv/falco'
 alias umicko='fusermount -z -u ~/srv/micko'
+alias utrevor='fusermount -z -u ~/srv/trevor'
 
 #gmail accounts
 #korpzone@gmail.com
@@ -39,7 +41,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -al'
 
-alias ack='ack-grep'
+#alias ack='ack-grep'
 
 #Firefox
 alias ff='firefox &'
@@ -53,7 +55,7 @@ alias lhomer='~/remoteserv/HOMER'
 alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
-#alias vi='vim -w $HOME/vimrecord '
+alias vi='vim'
 
 #cd
 alias ..='../'
@@ -68,5 +70,7 @@ alias oo='gnome-open ./'
 alias wtf='mtr google.com'
 alias v='vim'
 alias vi='vim'
+
+alias vw='ristretto'
 
 
