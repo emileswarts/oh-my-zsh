@@ -70,5 +70,3 @@ alias oo='gnome-open ./'
 alias wtf='mtr google.com'
 
 alias vw='ristretto'
-
-
