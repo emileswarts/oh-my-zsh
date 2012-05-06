@@ -72,3 +72,4 @@ alias v='vim'
 alias vi='vim'
 
 alias vw='ristretto'
+alias pdf='epdfview'
