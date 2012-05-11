@@ -71,3 +71,4 @@ alias wtf='mtr google.com'
 
 alias vw='ristretto'
 alias pdf='epdfview'
+alias later='sudo shutdown -h now'
