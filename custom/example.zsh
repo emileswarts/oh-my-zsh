@@ -1,7 +1,4 @@
 # Add yourself some shortcuts to projects you often work on
-# Example:
-#
-# brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
 
 alias sshhomer='ssh emile@homer.fatbeehive.com'
@@ -68,5 +65,5 @@ alias oo='gnome-open ./'
 alias wtf='mtr google.com'
 alias vi='vim'
 alias v='vim'
-
-
+alias vw='ristretto'
+alias pdf='epdfview'
