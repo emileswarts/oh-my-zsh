@@ -68,8 +68,9 @@ alias c='clear'
 alias oo='gnome-open ./'
 
 alias wtf='mtr google.com'
-alias v='vim'
 alias vi='vim'
+alias v='vim'
+>>>>>>> master
 
 alias vw='ristretto'
 alias pdf='epdfview'
