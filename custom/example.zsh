@@ -15,11 +15,13 @@ alias sshfsfalco='sshfs -p 6007 emile@falco.fatbeehive.com:/server/www ~/srv/fal
 alias sshfsmicko='sshfs emile@micko.fatbeehive.com:/server/www ~/srv/micko/'
 alias sshfsnearly='sshfs korpzone_emileswarts@ssh.phx.nearlyfreespeech.net:/ ~/srv/nearly/'
 alias sshfsnearlyvim='sshfs korpzone_myvimcommands@ssh.phx.nearlyfreespeech.net:/ ~/srv/nearlyvim/'
+alias sshfstrevor='sshfs emile@192.168.1.64:/emile ~/srv/trevor/'
 
 alias ubrix='fusermount -z -u ~/srv/brix'
 alias uhomer='fusermount -z -u ~/srv/homer'
 alias ufalco='fusermount -z -u ~/srv/falco'
 alias umicko='fusermount -z -u ~/srv/micko'
+alias utrevor='fusermount -z -u ~/srv/trevor'
 
 #gmail accounts
 #korpzone@gmail.com
@@ -50,7 +52,7 @@ alias lhomer='~/remoteserv/HOMER'
 alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
-#alias vi='vim -w $HOME/vimrecord '
+alias vi='vim'
 
 #cd
 alias ..='../'
@@ -63,7 +65,14 @@ alias c='clear'
 alias oo='gnome-open ./'
 
 alias wtf='mtr google.com'
+<<<<<<< HEAD
 alias vi='vim'
 alias v='vim'
 alias vw='ristretto'
 alias pdf='epdfview'
+=======
+
+alias vw='ristretto'
+alias pdf='epdfview'
+alias later='sudo shutdown -h now'
+>>>>>>> 008d011f89fb5ab5f27b4ffc26ba66a11eba2b19
