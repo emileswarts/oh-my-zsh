@@ -65,7 +65,9 @@ alias c='clear'
 alias oo='gnome-open ./'
 
 alias wtf='mtr google.com'
+<<<<<<< HEAD
 alias vi='vim'
 alias v='vim'
 alias vw='ristretto'
 alias pdf='epdfview'
+alias later='sudo shutdown -h now'
