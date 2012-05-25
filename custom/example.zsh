@@ -62,7 +62,7 @@ alias ....='../../../'
 alias xx='exit'
 alias c='clear'
 
-alias oo='gnome-open ./'
+alias oo='thunar ./'
 
 alias wtf='mtr google.com'
 alias vi='vim'
