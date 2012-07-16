@@ -75,3 +75,5 @@ alias pdf='epdfview'
 alias later='sudo shutdown -h now'
 alias fbprint='lp -d Brother_MFC_9465CDN '
 alias please='sudo'
+alias mymy='mysql -u emile -p'
+
