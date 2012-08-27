@@ -78,3 +78,7 @@ alias please='sudo'
 alias p='ps aux |grep'
 alias stopapache='/Applications/MAMP/bin/stop.sh'
 alias startapache='/Applications/MAMP/bin/start.sh'
+alias tu='top -o cpu'
+alias tm='top -o vsize'
+alias tmux="TERM=screen-256color-bce tmux"
+alias dir="ls -d */"
