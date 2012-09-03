@@ -82,3 +82,4 @@ alias tu='top -o cpu'
 alias tm='top -o vsize'
 alias tmux="TERM=screen-256color-bce tmux"
 alias dir="ls -d */"
+alias mymy='mysql -u emile -p'
