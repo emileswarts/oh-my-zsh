@@ -53,6 +53,7 @@ alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
 alias vi='vim'
+alias v='vim'
 
 #cd
 alias ..='../'
@@ -65,8 +66,6 @@ alias c='clear'
 alias oo='thunar ./'
 
 alias wtf='mtr google.com'
-alias vi='vim'
-alias v='vim'
 alias vw='ristretto'
 alias pdf='epdfview'
 
@@ -78,8 +77,7 @@ alias please='sudo'
 alias p='ps aux |grep'
 alias stopapache='/Applications/MAMP/bin/stop.sh'
 alias startapache='/Applications/MAMP/bin/start.sh'
-alias tu='top -o cpu'
-alias tm='top -o vsize'
-alias tmux="TERM=screen-256color-bce tmux"
+alias tm="tmux -u2"
 alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
+alias n='z'
