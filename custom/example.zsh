@@ -69,9 +69,6 @@ alias vi='vim'
 alias v='vim'
 alias vw='ristretto'
 alias pdf='epdfview'
-
-alias vw='ristretto'
-alias pdf='epdfview'
 alias later='sudo shutdown -h now'
 alias fbprint='lp -d Brother_MFC_9465CDN '
 alias please='sudo'
@@ -80,6 +77,6 @@ alias stopapache='/Applications/MAMP/bin/stop.sh'
 alias startapache='/Applications/MAMP/bin/start.sh'
 alias tu='top -o cpu'
 alias tm='top -o vsize'
-alias tmux="TERM=screen-256color-bce tmux"
 alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
+alias tm='tmuxinator'
