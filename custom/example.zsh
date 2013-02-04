@@ -80,3 +80,4 @@ alias tm='top -o vsize'
 alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
 alias tm='tmuxinator'
+alias sshec='ssh emile@54.228.237.168'
