@@ -53,6 +53,7 @@ alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
 alias vi='vim'
+alias v='vim'
 
 #cd
 alias ..='../'
@@ -65,8 +66,6 @@ alias c='clear'
 alias oo='thunar ./'
 
 alias wtf='mtr google.com'
-alias vi='vim'
-alias v='vim'
 alias vw='ristretto'
 alias pdf='epdfview'
 alias later='sudo shutdown -h now'
@@ -81,3 +80,7 @@ alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
 alias tm='tmuxinator'
 alias sshec='ssh emile@54.228.237.168'
+alias tm="tmux -u2"
+alias dir="ls -d */"
+alias mymy='mysql -u emile -p'
+alias n='z'
