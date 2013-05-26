@@ -16,7 +16,7 @@ fi
 
 function prompt_char {
     git branch >/dev/null 2>/dev/null && echo '%{$fg[red]%}±' && return
-    echo '%{$fg[red]%}❤ '
+    echo '\n%{$fg[red]%}❤ '
 }
 
 function box_name {
@@ -38,7 +38,8 @@ patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset
 local parse_special='$(hg prompt " %{$FG[242]%}on%{$reset_color%} $FG[172]{branch}%{$FG[242]%} revision %{$reset_color%}$FG[226]{tip}$FG[196] {status}" 2> /dev/null)'
 
 
-PROMPT="%{$FG[057]%}%n%{$reset_color%} %{$FG[242]%}at%{$reset_color%} %{$terminfo[bold]$FG[202]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[135]%}${current_dir}%{$reset_color%}${parse_special}${git_info} %{$FG[239]%}
+PROMPT="
+%{$FG[057]%}%n%{$reset_color%} %{$FG[242]%}at%{$reset_color%} %{$terminfo[bold]$FG[202]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[135]%}${current_dir}%{$reset_color%}${parse_special}${git_info} %{$FG[239]%}
 $(prompt_char) "
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[239]%}on%{$reset_color%} %{$fg[255]%}"

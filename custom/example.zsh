@@ -81,3 +81,5 @@ alias tm="tmux -u2"
 alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
 alias n='z'
+alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pgr='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
