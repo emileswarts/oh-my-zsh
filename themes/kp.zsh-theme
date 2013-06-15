@@ -16,7 +16,7 @@ fi
 
 function prompt_char {
     git branch >/dev/null 2>/dev/null && echo '%{$fg[red]%}±' && return
-    echo '\n%{$fg[red]%}❤ '
+    echo '%{$fg[red]%}❤ '
 }
 
 function box_name {
