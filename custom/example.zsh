@@ -1,13 +1,4 @@
 # Add yourself some shortcuts to projects you often work on
-#
-
-alias sshhomer='ssh emile@homer.fatbeehive.com'
-alias sshbrix='ssh emile@brix.fatbeehive.com'
-alias sshfalco='ssh -p 6007 emile@falco.fatbeehive.com'
-alias sshmicko='ssh emile@micko.fatbeehive.com'
-alias sshnearly='ssh korpzone_emileswarts@ssh.phx.nearlyfreespeech.net'
-alias sshnearlyvim='ssh korpzone_myvimcommands@ssh.phx.nearlyfreespeech.net'
-alias sshpanda='ssh emile@192.168.1.126'
 
 alias sshfsbrix='sshfs emile@brix.fatbeehive.com:/server/www/ ~/srv/brix/'
 alias sshfshomer='sshfs emile@homer.fatbeehive.com:/server/www/ ~/srv/homer/'
@@ -68,18 +59,23 @@ alias oo='thunar ./'
 alias wtf='mtr google.com'
 alias vw='ristretto'
 alias pdf='epdfview'
-
-alias vw='ristretto'
-alias pdf='epdfview'
 alias later='sudo shutdown -h now'
 alias fbprint='lp -d Brother_MFC_9465CDN '
 alias please='sudo'
 alias p='ps aux |grep'
 alias stopapache='/Applications/MAMP/bin/stop.sh'
 alias startapache='/Applications/MAMP/bin/start.sh'
+alias tu='top -o cpu'
+alias tm='top -o vsize'
+alias dir="ls -d */"
+alias mymy='mysql -u emile -p'
+alias tm='tmuxinator'
+alias sshec='ssh emile@54.228.237.168'
 alias tm="tmux -u2"
 alias dir="ls -d */"
 alias mymy='mysql -u emile -p'
 alias n='z'
 alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pgr='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
+alias n='python ~/bin/spotify.py n'
+alias p='python ~/bin/spotify.py p'
