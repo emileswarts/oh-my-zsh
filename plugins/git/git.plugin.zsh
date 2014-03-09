@@ -3,8 +3,8 @@ alias g='git'
 compdef g=git
 alias gst='git status'
 compdef _git gst=git-status
-alias gl='git pull'
-compdef _git gl=git-pull
+alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+# compdef _git gl=git-pull
 alias gup='git fetch && git rebase'
 compdef _git gup=git-fetch
 alias gp='git push'
