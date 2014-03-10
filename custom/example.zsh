@@ -59,3 +59,6 @@ alias pgs='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.l
 alias pgr='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log restart'
 alias n='python ~/bin/spotify.py n'
 alias p='python ~/bin/spotify.py p'
+alias :q='echo dont be a loser'
+
+alias vmcupdate=''
