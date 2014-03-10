@@ -60,5 +60,5 @@ alias pgr='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.l
 alias n='python ~/bin/spotify.py n'
 alias p='python ~/bin/spotify.py p'
 alias :q='echo dont be a loser'
-
 alias vmcupdate=''
+alias cdo='cd ~/vagrant-dev/www/on-running/'
