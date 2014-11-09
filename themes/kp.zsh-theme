@@ -37,10 +37,10 @@ local git_info='$(git_prompt_info)'
 
 
 PROMPT="
-%{$FG[027]%}%n%{$reset_color%} %{$FG[118]%}at%{$reset_color%} %{$terminfo[bold]$FG[202]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[239]%}in%{$reset_color%} %{$terminfo[bold]$FG[135]%}${current_dir}%{$reset_color%}${parse_special}${git_info} %{$FG[239]%}
+%{$FG[028]%}%n%{$reset_color%} %{$FG[64]%}at%{$reset_color%} %{$terminfo[bold]$FG[82]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[136]%}in%{$reset_color%} %{$terminfo[bold]$FG[108]%}${current_dir}%{$reset_color%}${parse_special}${git_info} %{$FG[160]%}
 $(prompt_char) "
 
-ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[239]%}on%{$reset_color%} %{$fg[184]%}"
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$FG[196]%}on%{$reset_color%} %{$fg[196]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[196]%} ✘✘✘"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[040]%} ✔"
