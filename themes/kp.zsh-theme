@@ -1,15 +1,5 @@
-# Fino theme by Max Masnick (http://max.masnick.me)
+# Olive blood Theme by Korpz
 
-# Use with a dark background and 256-color terminal!
-# Meant for people with RVM and git. Tested only on OS X 10.7.
-
-# You can set your computer name in the ~/.box-name file if you want.
-
-# Borrowing shamelessly from these oh-my-zsh themes:
-#   bira
-#   robbyrussell
-#
-# Also borrowing from http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
 if [ "x$OH_MY_ZSH_HG" = "x" ]; then
     OH_MY_ZSH_HG="hg"
 fi
@@ -23,18 +13,8 @@ function box_name {
     [ -f ~/.box-name ] && cat ~/.box-name || hostname -s
 }
 
-function hg_prompt_info {
-
-#    $OH_MY_ZSH_HG prompt --angle-brackets "\
-#< on %{$fg[magenta]%}<branch>%{$reset_color%}>\
-#< at %{$fg[yellow]%}<tags|%{$reset_color%}, %{$fg[yellow]%}>%{$reset_color%}>\
-#%{$fg[green]%}<status|modified|unknown><update>%{$reset_color%}<
-#patches: <patches|join( → )|pre_applied(%{$fg[yellow]%})|post_applied(%{$reset_color%})|pre_unapplied(%{$fg_bold[black]%})|post_unapplied(%{$reset_color%})>>" 2>/dev/null
-}
-
 local current_dir='${PWD/#$HOME/~}'
 local git_info='$(git_prompt_info)'
-
 
 PROMPT="
 %{$FG[028]%}%n%{$reset_color%} %{$FG[64]%}at%{$reset_color%} %{$terminfo[bold]$FG[82]%}$(box_name)%{$reset_color%} %{$terminfo[bold]$FG[136]%}in%{$reset_color%} %{$terminfo[bold]$FG[108]%}${current_dir}%{$reset_color%}${parse_special}${git_info} %{$FG[160]%}
