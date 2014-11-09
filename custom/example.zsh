@@ -26,6 +26,8 @@ alias vim='/usr/local/bin/vim'
 alias vi='/usr/local/bin/vim'
 alias v='/usr/local/bin/vim'
 
+alias emacs='/usr/local/bin/emacs'
+
 #cd
 alias ..='../'
 alias ...='../../'
