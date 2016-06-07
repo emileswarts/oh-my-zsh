@@ -64,3 +64,12 @@ alias p='python ~/bin/spotify.py p'
 alias :q='echo dont be a loser'
 alias vmcupdate=''
 alias cdo='cd ~/vagrant-dev/www/on-running/'
+
+#git
+alias gst='git status'
+alias gdc='git diff --cached'
+alias gd='git diff'
+alias gp='git push origin head'
+alias gsh='git show -p HEAD'
+alias gsq='git rebase -i HEAD~2'
+alias gca='git commit --amend'
