@@ -73,3 +73,5 @@ alias gp='git push origin head'
 alias gsh='git show -p HEAD'
 alias gsq='git rebase -i HEAD~2'
 alias gca='git commit --amend'
+
+alias vssh='vagrant ssh -- -t "cd /var/www/${PWD##*/}; bash"'
