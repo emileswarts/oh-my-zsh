@@ -22,9 +22,9 @@ alias lhomer='~/remoteserv/HOMER'
 alias lbrix='~/remoteserv/BRIX'
 
 #vimrecordsession
-alias vim='/usr/local/bin/vim'
-alias vi='/usr/local/bin/vim'
-alias v='/usr/local/bin/vim'
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
 
 alias emacs='/usr/local/bin/emacs'
 
@@ -64,6 +64,7 @@ alias p='python ~/bin/spotify.py p'
 alias :q='echo dont be a loser'
 alias vmcupdate=''
 alias cdo='cd ~/vagrant-dev/www/on-running/'
+alias x='exit'
 
 #git
 alias gst='git status'
@@ -75,3 +76,4 @@ alias gsq='git rebase -i HEAD~2'
 alias gca='git commit --amend'
 
 alias vssh='vagrant ssh -- -t "cd /var/www/${PWD##*/}; bash"'
+alias smashit='git add .; git commit -m "wip"; git push'
