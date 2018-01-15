@@ -16,6 +16,7 @@ alias l='ls -al'
 
 #take notes
 alias note='vim ~/notes/client.txt'
+alias tig='/usr/local/bin/tig'
 
 #for sshfs
 alias lhomer='~/remoteserv/HOMER'
